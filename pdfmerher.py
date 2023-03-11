@@ -1,7 +1,7 @@
 import PyPDF2
 
-pdf1 = open('math_kapak.pdf', 'rb')
-pdf2 = open('Note 8 Mar 2023.pdf', 'rb')
+pdf1 = open('pdf_name_1.pdf', 'rb')
+pdf2 = open('pdf_name_2.pdf', 'rb')
 
 pdf1_reader = PyPDF2.PdfReader(pdf1)
 pdf2_reader = PyPDF2.PdfReader(pdf2)
